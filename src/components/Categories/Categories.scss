@@ -1,0 +1,28 @@
+.categories {
+  margin-left: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94px;
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    li {
+      margin: 10px 50px;
+      font-size: 22px;
+      cursor: pointer;
+
+      &.active {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+input {
+  margin-right: 25px;
+  height: 27px;
+  width: 321px;
+}

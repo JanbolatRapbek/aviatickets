@@ -1,0 +1,29 @@
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  align-items: center;
+}
+.navbarItems {
+  display: flex;
+  align-items: center;
+}
+button {
+  position: relative;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 5px;
+}
+.logo {
+  color: white;
+  font-size: 26px;
+}
+svg {
+  fill: azure;
+  cursor: pointer;
+}
+h4 {
+  color: azure;
+}
